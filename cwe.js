@@ -65,3 +65,9 @@
             sum += x;
         }
     }
+
+
+function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
+    return Math.atan2(a/b);
+}
+
