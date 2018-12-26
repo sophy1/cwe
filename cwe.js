@@ -74,4 +74,5 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
 function test1216() {
     const a = 1;
     a = b;
+    let b = 3;
 }
