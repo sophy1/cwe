@@ -71,3 +71,7 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
 
+function test1216() {
+    const a = 1;
+    a = 3;
+}
