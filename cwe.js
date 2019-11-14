@@ -66,7 +66,3 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     }
 
  
-function CWE_843() { // BAD_TYPE_COERCION
-    var backPosition;
-    return "backgroundPosition: " + backP + "rpx; ";
-}
