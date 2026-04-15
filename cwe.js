@@ -1,5 +1,11 @@
 // This will show examples related with the Common Weakness Enumeration (CWE).
-
+    function CWE_test() { // IDENTICAL_BRANCHES
+        if (x >= 0) {
+            y = x;
+        } else {
+            y = x;
+        }
+    }
     function CWE_398() { // IDENTICAL_BRANCHES
         if (x >= 0) {
             y = x;
