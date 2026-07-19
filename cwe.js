@@ -63,3 +63,23 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
         arr[x] = 3;
     }
 }
+
+ function CWE_476() { // NULL_POINTER
+        var obj;
+        var y = obj.x;
+        console.log(y);
+    }
+
+    function CWE_476() { // NULL_POINTER
+        var obj;
+        var y = obj.x;
+        console.log(y);
+    }
+
+    function CWE_480() { // BAD_BITWISE_OPERATOR
+        var obj = null;
+        if (obj & obj.prop) {
+            console.log(obj.prop);
+        }
+    }
+
